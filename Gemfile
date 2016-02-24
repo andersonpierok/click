@@ -15,7 +15,6 @@ gem 'google-analytics-rails'
 gem 'kaminari'
 
 gem 'mina'
-gem 'pg'
 
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass', '~> 3.2.0'
@@ -29,7 +28,7 @@ gem 'prawn'
 gem 'prawn-table'
 
 group :production do
-  gem 'mysql2'
+  gem 'pg'
   gem 'unicorn'
 end
 
