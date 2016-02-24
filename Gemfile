@@ -15,6 +15,7 @@ gem 'google-analytics-rails'
 gem 'kaminari'
 
 gem 'mina'
+gem 'pg'
 
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass', '~> 3.2.0'
