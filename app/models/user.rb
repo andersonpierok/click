@@ -11,7 +11,7 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   validates :first_name, :last_name, :hours_per_day, presence: true
-  validates :hours_per_day, inclusion: { in: HOURS_IN_GROUPS_OF_FIVE_MINUTES }
+  # validates :hours_per_day, inclusion: { in: HOURS_IN_GROUPS_OF_FIVE_MINUTES }
 
   def total_balance
     nearest_timetable = timetables.first
